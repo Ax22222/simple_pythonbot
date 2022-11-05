@@ -1,14 +1,15 @@
+#introduction by the bot
 def greet(bot_name, birth_year):
     print("Hello! My name is {0}.".format(bot_name))
     print("I was created in {0}.".format(birth_year))
 
-
+#greetings from the bot
 def remind_name():
     print('Please, remind me your name.')
     name = input()
     print("What a great name you have, {0}!".format(name))
 
-
+#calulates the age of the human user
 def guess_age():
     print('Let me guess your age.')
     print('Enter remainders of dividing your age by 3, 5 and 7.')
@@ -20,7 +21,7 @@ def guess_age():
 
     print("Your age is {0}; that's a good time to start programming!".format(age))
 
-
+#Simple counting to the numbers inputted
 def count():
     print('Now I will prove to you that I can count to any number you want.')
     num = int(input())
@@ -30,7 +31,7 @@ def count():
         print("{0} !".format(counter))
         counter += 1
 
-
+#basic python question
 def test():
     print("Let's test your programming knowledge.")
     print("Why do we use methods?")
@@ -50,7 +51,7 @@ def test():
     print('.................................')
     print('.................................')
 
-
+#ends the programme with concluding statement
 def end():
     print('Congratulations, have a nice day!')
     print('.................................')
